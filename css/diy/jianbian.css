@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: Helvetica Neue,Helvetica,STHeiTi,Arial,sans-serif;
+	line-height: 1.5;
+	color: #333;
+	background: linear-gradient(-45deg, #ff2a2a, #b6e5f8);
+	animation: gradientBG 8s ease infinite;
+	background-size: 400% 400%;
+	min-height: 100%
+}
+/*颜色不断变化的动画*/
+@keyframes gradientBG{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
